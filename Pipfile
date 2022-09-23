@@ -9,6 +9,8 @@ pandas = "*"
 tqdm = "*"
 requests = "*"
 python-dotenv = "*"
+mako = "*"
+seaborn = "*"
 
 [dev-packages]
 ipykernel = "*"

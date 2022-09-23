@@ -1,0 +1,148 @@
+<html>
+<title>World Faces</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="//unpkg.com/alpinejs" defer></script>
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const container = document.getElementById('container');
+        const allImages = Array.from(container.children);
+
+        container.innerHTML = '';
+        const images = allImages.sort(() => Math.random() - 0.5).slice(0, 100);
+        images.forEach(image => container.appendChild(image));
+    })
+</script>
+
+<body>
+    <div x-data="{ filter: 'all' }" class="p-4">
+        <h1>World Faces</h1>
+        <p>Explanation here</p>
+        <div>
+            <button class="" @click="filter = 'child'">Everyone</button>
+            <button class="" @click="filter = 'child'">Children (0-14)</button>
+            <button class="" @click="filter = 'adult'">Adults (15-64)</button>
+            <button class="" @click="filter = 'senior'">Seniors (65+)</button>
+        </div>
+
+        <div id="container" class="grid grid-cols-8 sm:grid-cols-9 md:grid-cols-10 lg:grid-cols-12">
+            <img x-show="filter === 'senior' || filter === 'all'" src="faces/female_east_asian_old_person/c140a479-b2b0-48da-ac2e-348a9a97c57e_thumb.jpg" alt="female east asian old person" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/male_south_asian_child/0f53f4c3-d47f-4c3c-93e9-e5fa9986aa1e_thumb.jpg" alt="male south asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/male_south_asian_child/cca2e3cb-5e3e-4753-aaac-88cc8edaa368_thumb.jpg" alt="male south asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/male_south_asian_child/395c4ce0-6e34-49a8-b18f-24a67a689e58_thumb.jpg" alt="male south asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/male_south_asian_child/01513fa3-b37d-4f0a-a2f4-f95f8e119a19_thumb.jpg" alt="male south asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/male_south_asian_child/bd2e03fd-d0b8-46f2-b86a-46df92c3de4d_thumb.jpg" alt="male south asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/male_south_asian_child/85fe9502-5ab6-47bf-bcfa-105b6d532374_thumb.jpg" alt="male south asian child" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_african_adult/b0596d90-55fb-47f4-90bf-a91f8cbebc7f_thumb.jpg" alt="male african adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_african_adult/02deb77c-764b-4382-8da0-b08daed2f112_thumb.jpg" alt="male african adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_african_adult/05b03d93-99e8-4cda-a8cd-f682ea382cb5_thumb.jpg" alt="male african adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_african_adult/d8a603da-8dd0-4907-b64b-e1e020d69c6c_thumb.jpg" alt="male african adult" loading="lazy" />
+<img x-show="filter === 'senior' || filter === 'all'" src="faces/male_east_asian_old_person/5fba3fbb-e83a-4a24-8c2a-81dde844c99a_thumb.jpg" alt="male east asian old person" loading="lazy" />
+<img x-show="filter === 'senior' || filter === 'all'" src="faces/male_east_asian_old_person/420d6f80-4c03-416e-be4a-914d56967be1_thumb.jpg" alt="male east asian old person" loading="lazy" />
+<img x-show="filter === 'senior' || filter === 'all'" src="faces/male_east_asian_old_person/11adc9b0-c93f-4cc6-b78c-40fe38debd98_thumb.jpg" alt="male east asian old person" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_african_child/2811cbe9-7eb1-46ef-90dd-f0dd9215a438_thumb.jpg" alt="female african child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_african_child/5ee038c1-2a9b-499e-8edd-5dc6a321a521_thumb.jpg" alt="female african child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_african_child/2fc1216a-0b30-42ec-981c-de200501a867_thumb.jpg" alt="female african child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_african_child/374c7c39-43d7-48fe-bc9a-1fd62116b249_thumb.jpg" alt="female african child" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_african_adult/ac060e95-4028-44aa-a65f-18741081bc92_thumb.jpg" alt="female african adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_african_adult/fb4e2dae-b4a3-4f5e-a43a-aa7581f290c1_thumb.jpg" alt="female african adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_african_adult/1e385a52-3eac-4e84-a470-07211f612a86_thumb.jpg" alt="female african adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_african_adult/e74dc5b4-bf74-41ae-918c-e75efa11a4df_thumb.jpg" alt="female african adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_south_asian_adult/baf0d546-6eb6-41c3-8376-a5f846310f85_thumb.jpg" alt="male south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_south_asian_adult/ac0e0f65-272f-4578-9ef1-77451a96c732_thumb.jpg" alt="male south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_south_asian_adult/c08d9d0c-ebb6-4fd7-a9e2-a2a6278c7910_thumb.jpg" alt="male south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_south_asian_adult/a421083d-b3c4-456d-971c-78a7caa36afa_thumb.jpg" alt="male south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_south_asian_adult/55de40b7-45ad-48e3-af2e-37c5f7c953c7_thumb.jpg" alt="male south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_south_asian_adult/9675948a-080f-4873-b90a-67c43755adb7_thumb.jpg" alt="male south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_south_asian_adult/3eafa8fd-91f4-4233-a353-ef98ae25bc6d_thumb.jpg" alt="male south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_south_asian_adult/239d9ba2-69c0-4024-af80-97ec51638350_thumb.jpg" alt="male south asian adult" loading="lazy" />
+<img x-show="filter === 'senior' || filter === 'all'" src="faces/male_south_asian_old_person/3417dac9-0c04-47ec-b243-abe51afbaa22_thumb.jpg" alt="male south asian old person" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/male_african_child/d78e111c-754a-449e-b5c6-ea3eacf4640f_thumb.jpg" alt="male african child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/male_african_child/8f80e6f2-72d6-40a4-9173-271bd1f491d3_thumb.jpg" alt="male african child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/male_african_child/7907917d-9b94-4c9d-af86-80a80f783151_thumb.jpg" alt="male african child" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_north_american_adult/ec03f934-e774-4ee1-9274-4be4a8f7488e_thumb.jpg" alt="male north american adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_north_american_adult/ea3fe63f-fa62-4d59-85b7-d5d778e4f7de_thumb.jpg" alt="male north american adult" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_latin_american_child/a17ef4be-b66d-4884-898f-060a7e77f7fb_thumb.jpg" alt="female latin american child" loading="lazy" />
+<img x-show="filter === 'senior' || filter === 'all'" src="faces/male_north_american_old_person/24e94365-a52f-43cb-9890-1c5a00294531_thumb.jpg" alt="male north american old person" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_south_asian_adult/b9f54e30-a091-4e4b-847e-6ff2d9d250a8_thumb.jpg" alt="female south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_south_asian_adult/f3905852-fef8-4888-a386-af4131e3d302_thumb.jpg" alt="female south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_south_asian_adult/87941e57-12f5-495f-880c-4bcf1ac322b8_thumb.jpg" alt="female south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_south_asian_adult/3b0bc799-61cb-496d-882b-95f875747206_thumb.jpg" alt="female south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_south_asian_adult/7acef934-c92c-4227-bc14-5e78f578c80e_thumb.jpg" alt="female south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_south_asian_adult/4d5f069d-d74c-490f-9aee-989b991d8a9e_thumb.jpg" alt="female south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_south_asian_adult/340ee38f-160b-4639-abee-3d7186f4208c_thumb.jpg" alt="female south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_south_asian_adult/4352e858-8c45-46fa-afe6-0b4d23093cdc_thumb.jpg" alt="female south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_south_asian_adult/5996ab20-fbb5-449c-806e-9a8b0b07e6ee_thumb.jpg" alt="female south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_south_asian_adult/1fa72adf-2cd2-4804-b131-edffade24089_thumb.jpg" alt="female south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_south_asian_adult/b7879ee3-8c67-44d8-bdc4-50a10c7259c4_thumb.jpg" alt="female south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_south_asian_adult/68fc905c-b7c2-4d30-b091-70503187755e_thumb.jpg" alt="female south asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_south_asian_adult/914d469f-f6d6-4ce5-a916-9b482379fd1a_thumb.jpg" alt="female south asian adult" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_south_asian_child/0b1e808a-a7b2-4b8b-82b8-7135c2c8aaf7_thumb.jpg" alt="female south asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_south_asian_child/36417b55-d9c1-4af4-ac89-fe9ab6435393_thumb.jpg" alt="female south asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_south_asian_child/d3713d7f-fa4c-4155-907d-d34303146c41_thumb.jpg" alt="female south asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_south_asian_child/ded62525-52bb-400a-a863-6f3e2e46d88a_thumb.jpg" alt="female south asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_south_asian_child/977c995a-a1db-420e-af35-e32afe57e951_thumb.jpg" alt="female south asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_south_asian_child/92208101-522b-4d47-a5ca-3f04049b7df5_thumb.jpg" alt="female south asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_south_asian_child/8f1d5198-c464-4299-b61f-fa01d31ec13c_thumb.jpg" alt="female south asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_south_asian_child/8a102be3-1a44-4d05-a124-a9a389a548d2_thumb.jpg" alt="female south asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_south_asian_child/531c85b4-001a-4586-8592-c2711e199e5a_thumb.jpg" alt="female south asian child" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_latin_american_adult/03d7b319-7424-4a9a-8bb1-642443a4860d_thumb.jpg" alt="female latin american adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_latin_american_adult/d8423695-077a-472d-b8b9-451d1d882a51_thumb.jpg" alt="female latin american adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_latin_american_adult/73104f33-107f-4bcb-b08a-1d7ca176f38b_thumb.jpg" alt="female latin american adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_latin_american_adult/92c2d5fd-e92f-42df-80a5-4dc3b19da2db_thumb.jpg" alt="female latin american adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_latin_american_adult/c2aa6a10-332b-4133-b9b5-26efbf12e9dc_thumb.jpg" alt="female latin american adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_european_adult/20c09853-c433-45de-9a10-3b7a3d40ebb1_thumb.jpg" alt="male european adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_european_adult/c73cf2d6-9cca-43a3-baca-7337591ce736_thumb.jpg" alt="male european adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_european_adult/193e8392-67ef-44c5-8f1b-3a631267dc3b_thumb.jpg" alt="male european adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_european_adult/cf6e704e-5962-4e00-b49d-d94ad8c352f6_thumb.jpg" alt="male european adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_european_adult/d731bca1-f023-4176-9a60-daf8dcd80135_thumb.jpg" alt="female european adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_european_adult/d4f563d9-e277-4dc0-abe8-b72cf906153e_thumb.jpg" alt="female european adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_european_adult/324ab5dd-1b91-4947-aed3-7468bdbf7d69_thumb.jpg" alt="female european adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_east_asian_adult/9e784624-efdc-46d0-af6b-f76885ac813d_thumb.jpg" alt="female east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_east_asian_adult/b0f02874-8f90-4a90-aed8-e4dbfce830a9_thumb.jpg" alt="female east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_east_asian_adult/3c333434-2b1e-4ae6-bbdf-99e66dfb4d84_thumb.jpg" alt="female east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_east_asian_adult/7b0519e0-806b-40ed-9bc2-b96839e3825f_thumb.jpg" alt="female east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_east_asian_adult/d33e5aff-27e5-4b3f-997e-e100656f212c_thumb.jpg" alt="female east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_east_asian_adult/5ab33d2a-3e32-464e-801f-1cb4766c0086_thumb.jpg" alt="female east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_east_asian_adult/0d5fa5ce-35cd-4395-82aa-f4fe6c988974_thumb.jpg" alt="female east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_east_asian_adult/03107b8b-aee3-4992-b820-1b64100b746d_thumb.jpg" alt="female east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_east_asian_adult/f677f1a0-2121-4a3d-b5d3-eb99297a56cc_thumb.jpg" alt="female east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_east_asian_adult/4f8bbad7-e894-4921-8f73-1779caffa314_thumb.jpg" alt="female east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_east_asian_adult/9d3d89aa-9ae4-4527-ae13-616d52e27faf_thumb.jpg" alt="female east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_east_asian_adult/d84452a2-fd2e-4702-9f4f-dbbc95941b80_thumb.jpg" alt="female east asian adult" loading="lazy" />
+<img x-show="filter === 'senior' || filter === 'all'" src="faces/male_african_old_person/d851f830-cf61-4e40-94e3-91c6e5a56043_thumb.jpg" alt="male african old person" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_north_american_adult/d6943bef-2698-4878-b6e3-9adf8b284279_thumb.jpg" alt="female north american adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_north_american_adult/7a40e3d5-8f05-45fa-bece-5507e058bd89_thumb.jpg" alt="female north american adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_north_american_adult/c7cdc8c0-c2e8-4cee-a608-0ce0f09062d8_thumb.jpg" alt="female north american adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_north_american_adult/a52d36a8-bdfc-409f-a3c6-71f88ca52b46_thumb.jpg" alt="female north american adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_middle_eastern_adult/04ff9128-b65a-408c-ad5e-df3fb675bfea_thumb.jpg" alt="female middle eastern adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_middle_eastern_adult/4ac41b13-505c-4a89-8029-0a46e282d18d_thumb.jpg" alt="female middle eastern adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_middle_eastern_adult/4271c126-61d2-4cf6-94cc-c6903e3cc69f_thumb.jpg" alt="female middle eastern adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/female_middle_eastern_adult/6f8df750-16e6-41dc-8d79-8a4532ae6ecd_thumb.jpg" alt="female middle eastern adult" loading="lazy" />
+<img x-show="filter === 'senior' || filter === 'all'" src="faces/female_latin_american_old_person/650e7831-f5b4-4dd9-9032-18424f39cd17_thumb.jpg" alt="female latin american old person" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_european_child/213f287e-e3f9-44b1-ae64-4e392031e496_thumb.jpg" alt="female european child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/female_east_asian_child/95af64ba-32ab-4249-99d9-5671a27df973_thumb.jpg" alt="female east asian child" loading="lazy" />
+<img x-show="filter === 'senior' || filter === 'all'" src="faces/female_european_old_person/80396803-7823-41be-bf9d-40d9381409ae_thumb.jpg" alt="female european old person" loading="lazy" />
+<img x-show="filter === 'senior' || filter === 'all'" src="faces/female_european_old_person/34b72e34-3c37-4002-bb30-777c4ee3612e_thumb.jpg" alt="female european old person" loading="lazy" />
+<img x-show="filter === 'senior' || filter === 'all'" src="faces/female_european_old_person/d2f3a544-ec6c-404b-ae92-42a54285cc55_thumb.jpg" alt="female european old person" loading="lazy" />
+<img x-show="filter === 'senior' || filter === 'all'" src="faces/female_middle_eastern_old_person/6b35babc-631a-41c2-9af1-ae8590d6a37d_thumb.jpg" alt="female middle eastern old person" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_east_asian_adult/638c48e8-48a4-42fc-bf87-1b9d1179ed51_thumb.jpg" alt="male east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_east_asian_adult/fdf52e45-a216-4012-9b4d-31d52729c996_thumb.jpg" alt="male east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_east_asian_adult/34b65a9c-d795-4167-b22a-5130f0feafae_thumb.jpg" alt="male east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_east_asian_adult/fb91f6db-d4db-4396-b899-b1692fae2c8c_thumb.jpg" alt="male east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_east_asian_adult/504d3c7d-4a01-475c-b1d4-020ff61921d8_thumb.jpg" alt="male east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_east_asian_adult/00727efc-b201-4c67-9311-4ba3e609ecc3_thumb.jpg" alt="male east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_east_asian_adult/93cf5fc2-658c-4f69-8997-4a5e4cbcef7b_thumb.jpg" alt="male east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_east_asian_adult/cd6c4f71-912f-472c-94ff-e564b2def17a_thumb.jpg" alt="male east asian adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_east_asian_adult/a0768b5c-b2e8-4140-b695-7b237f316db7_thumb.jpg" alt="male east asian adult" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/male_latin_american_child/ee2c80af-a38e-445c-b92e-093a4f81c9ea_thumb.jpg" alt="male latin american child" loading="lazy" />
+<img x-show="filter === 'senior' || filter === 'all'" src="faces/female_north_american_old_person/95eada47-1c12-4094-b7bf-72294fb40c96_thumb.jpg" alt="female north american old person" loading="lazy" />
+<img x-show="filter === 'senior' || filter === 'all'" src="faces/female_north_american_old_person/1173ad6a-dfc8-495a-a445-c024490f1ba0_thumb.jpg" alt="female north american old person" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_latin_american_adult/87ce26de-99dc-4bab-aa77-aefc5d834329_thumb.jpg" alt="male latin american adult" loading="lazy" />
+<img x-show="filter === 'adult' || filter === 'all'" src="faces/male_latin_american_adult/629eb408-2080-4188-9ed9-6dfc1cfb3012_thumb.jpg" alt="male latin american adult" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/male_east_asian_child/5a08433f-1e55-4c8f-933b-d16e8912542f_thumb.jpg" alt="male east asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/male_east_asian_child/3196434b-0c9d-4dff-86a3-17bd2e3e698f_thumb.jpg" alt="male east asian child" loading="lazy" />
+<img x-show="filter === 'child' || filter === 'all'" src="faces/male_east_asian_child/94958fdb-04d8-4b5b-9a2b-ede99b1aed18_thumb.jpg" alt="male east asian child" loading="lazy" />
+
+        </div>
+    </div>
+</body>
