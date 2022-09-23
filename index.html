@@ -14,16 +14,17 @@
             constructor() {
                 super();
                 this.state = { filter: 'all' };
+                this.allImages = allImages.sort(() => Math.random() - 0.5).slice(0, 108)
             }
 
             onChange = e => {
                 this.setState({ filter: e.target.value });
             }
 
-            renderButtons() {
+            renderFilterSelect() {
                 return html`
-            <div class="mb-2">
-                <label for="filter" class="mr-2">Filter</label>
+            <div class="mb-4">
+                <label for="filter" class="mr-2">Filter by age group</label>
                 <select id="filter"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         value=${this.state.filter}
@@ -38,15 +39,15 @@
             }
 
             renderImages() {
-                const filteredImages = allImages.filter(image => this.state.filter === 'all' || image.type === this.state.filter);
-                const images = filteredImages.sort(() => Math.random() - 0.5).slice(0, 108).map(image => {
+                const filteredImages = this.allImages.filter(image => this.state.filter === 'all' || image.type === this.state.filter);
+                const images = filteredImages.map(image => {
                     return html`<img src=${image.url} alt=${image.person} loading="lazy" />`
                 })
                 return html`<div class="grid grid-cols-6 sm:grid-cols-9 lg:grid-cols-12">${images}</div>`
             }
 
             render() {
-                return html`<div>${this.renderButtons()}${this.renderImages()}</div>`
+                return html`<div>${this.renderFilterSelect()}${this.renderImages()}</div>`
             }
         }
 
@@ -55,15 +56,17 @@
 
 <body>
     <div class="container p-4">
-        <div class="prose">
+        <div class="prose mb-4">
             <h1>World Faces</h1>
-            <p>This page shows you random human faces sampled according to World Bank statistics.</p>
-            <img src="heatmap.png" alt="heatmap" width="360px" />
-            <p>The images were generated using StableDiffusion with the prompt <em>profile headshot photo of a
-                    {person}, centered, white bg</em>, where <em>{person}</em> was like <em>male latin american
-                    adult</em>,
-                <em>female european old person</em>, and so on.
+            <p>This page shows you a sample of 108 random human faces, drawn according to <a
+                    href="https://databank.worldbank.org">World Bank statistics</a>.</p>
+            <img class="m-0" src="world-population.png" alt="heatmap" width="435px" />
+            <p>The images were generated using <a
+                    href="https://replicate.com/stability-ai/stable-diffusion">StableDiffusion on Replicate</a> with the
+                prompt of the form <em>"profile headshot photo of a male latin american adult, centered, white bg"</em>.
             </p>
+            <p>All code is available on <a href="https://github.com/sergeyk/worldfaces">GitHub</a>. Deployed with
+                Vercel.</p>
         </div>
         <div id="app"></div>
     </div>

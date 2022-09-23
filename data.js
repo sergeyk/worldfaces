@@ -10,6 +10,16 @@ export default [
     "person": "female east asian old person"
   },
   {
+    "url": "faces/female_east_asian_old_person/a70d37d4-461e-42b0-a085-8cae3c5eb4d2_thumb.jpg",
+    "type": "senior",
+    "person": "female east asian old person"
+  },
+  {
+    "url": "faces/female_east_asian_old_person/5da0d995-73df-455d-8265-44ee00761cae_thumb.jpg",
+    "type": "senior",
+    "person": "female east asian old person"
+  },
+  {
     "url": "faces/female_east_asian_old_person/2d2f6b02-67f9-4be2-be2d-1ce892d2840f_thumb.jpg",
     "type": "senior",
     "person": "female east asian old person"
@@ -28,6 +38,11 @@ export default [
     "url": "faces/female_east_asian_old_person/42696210-5cb6-4e86-a5c1-68e9fc6bd26b_thumb.jpg",
     "type": "senior",
     "person": "female east asian old person"
+  },
+  {
+    "url": "faces/male_middle_eastern_child/b227ea35-10ef-4440-8c5f-d42aeb288166_thumb.jpg",
+    "type": "child",
+    "person": "male middle eastern child"
   },
   {
     "url": "faces/male_middle_eastern_child/c352c3b6-e765-4c86-9a5d-67afee6651a2_thumb.jpg",
@@ -65,12 +80,32 @@ export default [
     "person": "male south asian child"
   },
   {
+    "url": "faces/male_south_asian_child/b1d031c9-6946-4b1c-80ec-febe722ba5c9_thumb.jpg",
+    "type": "child",
+    "person": "male south asian child"
+  },
+  {
+    "url": "faces/male_south_asian_child/03298b7c-d46b-4b13-b0ca-3e6fb7782355_thumb.jpg",
+    "type": "child",
+    "person": "male south asian child"
+  },
+  {
     "url": "faces/male_south_asian_child/01513fa3-b37d-4f0a-a2f4-f95f8e119a19_thumb.jpg",
     "type": "child",
     "person": "male south asian child"
   },
   {
+    "url": "faces/male_south_asian_child/458b4fa2-3096-4984-8fd6-228cc7e28f06_thumb.jpg",
+    "type": "child",
+    "person": "male south asian child"
+  },
+  {
     "url": "faces/male_south_asian_child/d534c055-2b15-4f1f-a798-4e4d4b1ac5b0_thumb.jpg",
+    "type": "child",
+    "person": "male south asian child"
+  },
+  {
+    "url": "faces/male_south_asian_child/a7a7a994-1dce-4e4b-ae26-176770463bf1_thumb.jpg",
     "type": "child",
     "person": "male south asian child"
   },
@@ -100,7 +135,37 @@ export default [
     "person": "male african adult"
   },
   {
+    "url": "faces/male_african_adult/0e05406e-6f68-497f-952c-3582f57a50d3_thumb.jpg",
+    "type": "adult",
+    "person": "male african adult"
+  },
+  {
+    "url": "faces/male_african_adult/c8b70c2c-5c4b-46d1-bfe6-fa3793172371_thumb.jpg",
+    "type": "adult",
+    "person": "male african adult"
+  },
+  {
+    "url": "faces/male_african_adult/b1211c8f-c1d0-42a5-a284-73253976f46f_thumb.jpg",
+    "type": "adult",
+    "person": "male african adult"
+  },
+  {
+    "url": "faces/male_african_adult/9a037651-167a-4db5-9705-c56de5e6ee34_thumb.jpg",
+    "type": "adult",
+    "person": "male african adult"
+  },
+  {
     "url": "faces/male_african_adult/02deb77c-764b-4382-8da0-b08daed2f112_thumb.jpg",
+    "type": "adult",
+    "person": "male african adult"
+  },
+  {
+    "url": "faces/male_african_adult/0f55d9f4-179a-4a78-938c-d59c8a5968c2_thumb.jpg",
+    "type": "adult",
+    "person": "male african adult"
+  },
+  {
+    "url": "faces/male_african_adult/0eaae7a5-ca4e-41d0-b203-ffbbc88b3c6b_thumb.jpg",
     "type": "adult",
     "person": "male african adult"
   },
@@ -125,6 +190,16 @@ export default [
     "person": "male east asian old person"
   },
   {
+    "url": "faces/male_east_asian_old_person/b3cbfa06-80a7-4f88-bb30-794284e42fe5_thumb.jpg",
+    "type": "senior",
+    "person": "male east asian old person"
+  },
+  {
+    "url": "faces/male_east_asian_old_person/55a31934-54d7-4a5f-80a5-0ada05d5bc0d_thumb.jpg",
+    "type": "senior",
+    "person": "male east asian old person"
+  },
+  {
     "url": "faces/male_east_asian_old_person/11adc9b0-c93f-4cc6-b78c-40fe38debd98_thumb.jpg",
     "type": "senior",
     "person": "male east asian old person"
@@ -135,12 +210,22 @@ export default [
     "person": "male east asian old person"
   },
   {
+    "url": "faces/male_east_asian_old_person/8618d7ee-766a-4e83-9eec-af075a2395ce_thumb.jpg",
+    "type": "senior",
+    "person": "male east asian old person"
+  },
+  {
     "url": "faces/female_african_child/2811cbe9-7eb1-46ef-90dd-f0dd9215a438_thumb.jpg",
     "type": "child",
     "person": "female african child"
   },
   {
     "url": "faces/female_african_child/c7077177-74d9-4978-8af0-cb9ad775ba42_thumb.jpg",
+    "type": "child",
+    "person": "female african child"
+  },
+  {
+    "url": "faces/female_african_child/ae658d61-99e8-4851-b113-d4c30965efa5_thumb.jpg",
     "type": "child",
     "person": "female african child"
   },
@@ -170,6 +255,11 @@ export default [
     "person": "female african child"
   },
   {
+    "url": "faces/female_african_adult/74af0580-22bd-4215-aec7-7118623d1f3a_thumb.jpg",
+    "type": "adult",
+    "person": "female african adult"
+  },
+  {
     "url": "faces/female_african_adult/9f275fa9-0799-406c-ac6c-20ebbc69db0d_thumb.jpg",
     "type": "adult",
     "person": "female african adult"
@@ -181,6 +271,21 @@ export default [
   },
   {
     "url": "faces/female_african_adult/92ee3822-19f4-4764-914c-bc5503db7784_thumb.jpg",
+    "type": "adult",
+    "person": "female african adult"
+  },
+  {
+    "url": "faces/female_african_adult/03149f0a-fd92-49b3-9288-d5a37d7dc449_thumb.jpg",
+    "type": "adult",
+    "person": "female african adult"
+  },
+  {
+    "url": "faces/female_african_adult/4c6bf826-2aa4-4fed-8f22-fddef63bd87e_thumb.jpg",
+    "type": "adult",
+    "person": "female african adult"
+  },
+  {
+    "url": "faces/female_african_adult/9c0d87d6-64a5-425e-b51e-65813c84ff73_thumb.jpg",
     "type": "adult",
     "person": "female african adult"
   },
@@ -225,6 +330,11 @@ export default [
     "person": "male south asian adult"
   },
   {
+    "url": "faces/male_south_asian_adult/d78ab871-75e2-43a7-919f-89e072690b52_thumb.jpg",
+    "type": "adult",
+    "person": "male south asian adult"
+  },
+  {
     "url": "faces/male_south_asian_adult/baf0d546-6eb6-41c3-8376-a5f846310f85_thumb.jpg",
     "type": "adult",
     "person": "male south asian adult"
@@ -245,6 +355,11 @@ export default [
     "person": "male south asian adult"
   },
   {
+    "url": "faces/male_south_asian_adult/238c51ce-619c-4512-a591-f79486802e4f_thumb.jpg",
+    "type": "adult",
+    "person": "male south asian adult"
+  },
+  {
     "url": "faces/male_south_asian_adult/c08d9d0c-ebb6-4fd7-a9e2-a2a6278c7910_thumb.jpg",
     "type": "adult",
     "person": "male south asian adult"
@@ -255,7 +370,17 @@ export default [
     "person": "male south asian adult"
   },
   {
+    "url": "faces/male_south_asian_adult/ea2eaea6-03de-4bf0-ab82-578a1d32565d_thumb.jpg",
+    "type": "adult",
+    "person": "male south asian adult"
+  },
+  {
     "url": "faces/male_south_asian_adult/a0116e51-a594-473a-bbc8-9ee792acbcb8_thumb.jpg",
+    "type": "adult",
+    "person": "male south asian adult"
+  },
+  {
+    "url": "faces/male_south_asian_adult/455fc9d7-203e-463f-90c4-f0205c1e6c24_thumb.jpg",
     "type": "adult",
     "person": "male south asian adult"
   },
@@ -265,12 +390,32 @@ export default [
     "person": "male south asian adult"
   },
   {
+    "url": "faces/male_south_asian_adult/edd5fa1b-16b4-4272-8d13-9bfeaa46c401_thumb.jpg",
+    "type": "adult",
+    "person": "male south asian adult"
+  },
+  {
+    "url": "faces/male_south_asian_adult/4795e2ec-0809-49f4-8401-a817eab20df5_thumb.jpg",
+    "type": "adult",
+    "person": "male south asian adult"
+  },
+  {
     "url": "faces/male_south_asian_adult/55de40b7-45ad-48e3-af2e-37c5f7c953c7_thumb.jpg",
     "type": "adult",
     "person": "male south asian adult"
   },
   {
+    "url": "faces/male_south_asian_adult/355f3f25-4b32-49b3-901c-ddbceb284d01_thumb.jpg",
+    "type": "adult",
+    "person": "male south asian adult"
+  },
+  {
     "url": "faces/male_south_asian_adult/9675948a-080f-4873-b90a-67c43755adb7_thumb.jpg",
+    "type": "adult",
+    "person": "male south asian adult"
+  },
+  {
+    "url": "faces/male_south_asian_adult/e8b3e51a-4a5e-44df-b878-4f5857fda7de_thumb.jpg",
     "type": "adult",
     "person": "male south asian adult"
   },
@@ -305,12 +450,32 @@ export default [
     "person": "male african child"
   },
   {
+    "url": "faces/male_african_child/b1308856-f373-4087-a456-3879a566c437_thumb.jpg",
+    "type": "child",
+    "person": "male african child"
+  },
+  {
     "url": "faces/male_african_child/61f9ff6f-7767-4e5a-98eb-b42ccea0b9be_thumb.jpg",
     "type": "child",
     "person": "male african child"
   },
   {
     "url": "faces/male_african_child/8f80e6f2-72d6-40a4-9173-271bd1f491d3_thumb.jpg",
+    "type": "child",
+    "person": "male african child"
+  },
+  {
+    "url": "faces/male_african_child/5b916fea-72d4-4ec9-bd10-6c1120bf0443_thumb.jpg",
+    "type": "child",
+    "person": "male african child"
+  },
+  {
+    "url": "faces/male_african_child/d3dba32b-cfed-4fce-9f02-8f9bb8c78826_thumb.jpg",
+    "type": "child",
+    "person": "male african child"
+  },
+  {
+    "url": "faces/male_african_child/c6d45a0b-a03f-4f67-b0f0-8f9d3d5d1772_thumb.jpg",
     "type": "child",
     "person": "male african child"
   },
@@ -340,6 +505,21 @@ export default [
     "person": "male north american adult"
   },
   {
+    "url": "faces/male_north_american_adult/f2f66437-a132-47a9-837f-b1c48448023c_thumb.jpg",
+    "type": "adult",
+    "person": "male north american adult"
+  },
+  {
+    "url": "faces/male_north_american_adult/185048ba-02ea-4b07-85dc-6c73bcf2d4b8_thumb.jpg",
+    "type": "adult",
+    "person": "male north american adult"
+  },
+  {
+    "url": "faces/male_north_american_adult/5268c4ed-c161-4e67-93f8-c068ae303abe_thumb.jpg",
+    "type": "adult",
+    "person": "male north american adult"
+  },
+  {
     "url": "faces/male_north_american_adult/b835c77f-23b6-4c89-af9c-12afb406ad64_thumb.jpg",
     "type": "adult",
     "person": "male north american adult"
@@ -350,7 +530,17 @@ export default [
     "person": "male middle eastern adult"
   },
   {
+    "url": "faces/male_middle_eastern_adult/61ea2c2c-edee-4b45-a126-0e9f60d59a0f_thumb.jpg",
+    "type": "adult",
+    "person": "male middle eastern adult"
+  },
+  {
     "url": "faces/male_middle_eastern_adult/5b0ada73-0e61-43f5-bc8f-9a89dad03cd2_thumb.jpg",
+    "type": "adult",
+    "person": "male middle eastern adult"
+  },
+  {
+    "url": "faces/male_middle_eastern_adult/1e429db7-cdc3-44b9-98ac-f914c8b43468_thumb.jpg",
     "type": "adult",
     "person": "male middle eastern adult"
   },
@@ -380,7 +570,17 @@ export default [
     "person": "female south asian adult"
   },
   {
+    "url": "faces/female_south_asian_adult/1e3d3fe7-3d93-4d83-b0c0-c5ed5b866cac_thumb.jpg",
+    "type": "adult",
+    "person": "female south asian adult"
+  },
+  {
     "url": "faces/female_south_asian_adult/f3905852-fef8-4888-a386-af4131e3d302_thumb.jpg",
+    "type": "adult",
+    "person": "female south asian adult"
+  },
+  {
+    "url": "faces/female_south_asian_adult/b7cfc38f-6119-4369-a2b2-13693810ad73_thumb.jpg",
     "type": "adult",
     "person": "female south asian adult"
   },
@@ -405,6 +605,11 @@ export default [
     "person": "female south asian adult"
   },
   {
+    "url": "faces/female_south_asian_adult/ce5af085-497f-44da-b3c7-01a6e18490ca_thumb.jpg",
+    "type": "adult",
+    "person": "female south asian adult"
+  },
+  {
     "url": "faces/female_south_asian_adult/3b0bc799-61cb-496d-882b-95f875747206_thumb.jpg",
     "type": "adult",
     "person": "female south asian adult"
@@ -415,12 +620,27 @@ export default [
     "person": "female south asian adult"
   },
   {
+    "url": "faces/female_south_asian_adult/efeb070c-ab35-49e3-aeab-2ce6578abdce_thumb.jpg",
+    "type": "adult",
+    "person": "female south asian adult"
+  },
+  {
     "url": "faces/female_south_asian_adult/588fa5ee-4368-46da-a560-f81ca51be5c4_thumb.jpg",
     "type": "adult",
     "person": "female south asian adult"
   },
   {
+    "url": "faces/female_south_asian_adult/970c1119-7c7a-4a94-aa27-75f464b1cbd5_thumb.jpg",
+    "type": "adult",
+    "person": "female south asian adult"
+  },
+  {
     "url": "faces/female_south_asian_adult/4d5f069d-d74c-490f-9aee-989b991d8a9e_thumb.jpg",
+    "type": "adult",
+    "person": "female south asian adult"
+  },
+  {
+    "url": "faces/female_south_asian_adult/dc82f99e-2280-459d-b9ac-75aba7c2dd97_thumb.jpg",
     "type": "adult",
     "person": "female south asian adult"
   },
@@ -440,12 +660,22 @@ export default [
     "person": "female south asian adult"
   },
   {
+    "url": "faces/female_south_asian_adult/85f55956-0d2d-4c00-8d6a-01e35229a7e0_thumb.jpg",
+    "type": "adult",
+    "person": "female south asian adult"
+  },
+  {
     "url": "faces/female_south_asian_adult/7dea2113-0388-4c6d-a5fc-ce45321e3682_thumb.jpg",
     "type": "adult",
     "person": "female south asian adult"
   },
   {
     "url": "faces/female_south_asian_adult/5996ab20-fbb5-449c-806e-9a8b0b07e6ee_thumb.jpg",
+    "type": "adult",
+    "person": "female south asian adult"
+  },
+  {
+    "url": "faces/female_south_asian_adult/60ac2338-6a89-49ee-9959-730f63f87af3_thumb.jpg",
     "type": "adult",
     "person": "female south asian adult"
   },
@@ -475,6 +705,11 @@ export default [
     "person": "female south asian adult"
   },
   {
+    "url": "faces/female_south_asian_adult/b246389f-0328-463e-8e94-83c2443e3078_thumb.jpg",
+    "type": "adult",
+    "person": "female south asian adult"
+  },
+  {
     "url": "faces/female_south_asian_adult/914d469f-f6d6-4ce5-a916-9b482379fd1a_thumb.jpg",
     "type": "adult",
     "person": "female south asian adult"
@@ -483,6 +718,16 @@ export default [
     "url": "faces/female_south_asian_adult/d7806ea0-277a-4ffa-a0cc-ca931325bf9d_thumb.jpg",
     "type": "adult",
     "person": "female south asian adult"
+  },
+  {
+    "url": "faces/female_south_asian_adult/1c5ffffd-fd20-46ad-ba81-7e3d7a69e3fe_thumb.jpg",
+    "type": "adult",
+    "person": "female south asian adult"
+  },
+  {
+    "url": "faces/female_south_asian_child/86d849ff-f409-43df-a9cd-344e474b9aff_thumb.jpg",
+    "type": "child",
+    "person": "female south asian child"
   },
   {
     "url": "faces/female_south_asian_child/bfad075a-aa29-4a88-863a-40d78ff8fca1_thumb.jpg",
@@ -496,6 +741,16 @@ export default [
   },
   {
     "url": "faces/female_south_asian_child/5937030c-876e-4ffd-a774-f0fd3a761c77_thumb.jpg",
+    "type": "child",
+    "person": "female south asian child"
+  },
+  {
+    "url": "faces/female_south_asian_child/438270ec-4e59-4a7a-a276-16ed8c30a153_thumb.jpg",
+    "type": "child",
+    "person": "female south asian child"
+  },
+  {
+    "url": "faces/female_south_asian_child/fe1e1004-cd2e-47d8-903e-12040c71f130_thumb.jpg",
     "type": "child",
     "person": "female south asian child"
   },
@@ -570,7 +825,17 @@ export default [
     "person": "female latin american adult"
   },
   {
+    "url": "faces/female_latin_american_adult/71b425e8-99cc-4b35-aebd-4e424db8d9c3_thumb.jpg",
+    "type": "adult",
+    "person": "female latin american adult"
+  },
+  {
     "url": "faces/female_latin_american_adult/92c2d5fd-e92f-42df-80a5-4dc3b19da2db_thumb.jpg",
+    "type": "adult",
+    "person": "female latin american adult"
+  },
+  {
+    "url": "faces/female_latin_american_adult/0acb9b75-3570-44d3-8b39-cab4f1626234_thumb.jpg",
     "type": "adult",
     "person": "female latin american adult"
   },
@@ -585,12 +850,32 @@ export default [
     "person": "female latin american adult"
   },
   {
+    "url": "faces/female_latin_american_adult/11bf49b6-582b-4e4a-b7de-1f64760fffba_thumb.jpg",
+    "type": "adult",
+    "person": "female latin american adult"
+  },
+  {
+    "url": "faces/female_latin_american_adult/ed9d8dbe-3293-4dc7-8dcf-058880e6048a_thumb.jpg",
+    "type": "adult",
+    "person": "female latin american adult"
+  },
+  {
     "url": "faces/female_latin_american_adult/c2aa6a10-332b-4133-b9b5-26efbf12e9dc_thumb.jpg",
     "type": "adult",
     "person": "female latin american adult"
   },
   {
+    "url": "faces/female_latin_american_adult/cc327ae4-e809-4c3d-a23b-fa89f317d19b_thumb.jpg",
+    "type": "adult",
+    "person": "female latin american adult"
+  },
+  {
     "url": "faces/female_south_asian_old_person/62456188-b5f9-4fd1-b74d-ba1bf7ae92d4_thumb.jpg",
+    "type": "senior",
+    "person": "female south asian old person"
+  },
+  {
+    "url": "faces/female_south_asian_old_person/114c5006-10f8-4a50-9e98-6ed1457107e0_thumb.jpg",
     "type": "senior",
     "person": "female south asian old person"
   },
@@ -635,7 +920,17 @@ export default [
     "person": "male european adult"
   },
   {
+    "url": "faces/male_european_adult/d8ab37b7-48f7-4c59-9f99-4a5ffadbad41_thumb.jpg",
+    "type": "adult",
+    "person": "male european adult"
+  },
+  {
     "url": "faces/male_european_adult/b6313cdf-f709-4c35-9be3-3c78d2d6dd35_thumb.jpg",
+    "type": "adult",
+    "person": "male european adult"
+  },
+  {
+    "url": "faces/male_european_adult/5906ddc1-b81e-473b-a8d1-26dc102fe1e5_thumb.jpg",
     "type": "adult",
     "person": "male european adult"
   },
@@ -646,6 +941,26 @@ export default [
   },
   {
     "url": "faces/female_european_adult/d731bca1-f023-4176-9a60-daf8dcd80135_thumb.jpg",
+    "type": "adult",
+    "person": "female european adult"
+  },
+  {
+    "url": "faces/female_european_adult/ad42cb0b-af9d-45d8-aad3-0d046655abdb_thumb.jpg",
+    "type": "adult",
+    "person": "female european adult"
+  },
+  {
+    "url": "faces/female_european_adult/98374738-00fb-4010-a8e3-12ac51d750f7_thumb.jpg",
+    "type": "adult",
+    "person": "female european adult"
+  },
+  {
+    "url": "faces/female_european_adult/a174ea31-8067-4bc7-ad49-81374ee8ba49_thumb.jpg",
+    "type": "adult",
+    "person": "female european adult"
+  },
+  {
+    "url": "faces/female_european_adult/4b32a5dc-24dd-477b-8ab3-10409dc5c108_thumb.jpg",
     "type": "adult",
     "person": "female european adult"
   },
@@ -661,6 +976,16 @@ export default [
   },
   {
     "url": "faces/female_european_adult/324ab5dd-1b91-4947-aed3-7468bdbf7d69_thumb.jpg",
+    "type": "adult",
+    "person": "female european adult"
+  },
+  {
+    "url": "faces/female_european_adult/9ed5c99a-0cd7-43ea-9ff6-0772f2f998c0_thumb.jpg",
+    "type": "adult",
+    "person": "female european adult"
+  },
+  {
+    "url": "faces/female_european_adult/460d411d-ed71-4655-90ea-e5804abbd51e_thumb.jpg",
     "type": "adult",
     "person": "female european adult"
   },
@@ -690,6 +1015,16 @@ export default [
     "person": "female east asian adult"
   },
   {
+    "url": "faces/female_east_asian_adult/f5388ec6-06c8-46fe-b069-93535b03708a_thumb.jpg",
+    "type": "adult",
+    "person": "female east asian adult"
+  },
+  {
+    "url": "faces/female_east_asian_adult/8dd3103a-b830-4ff6-920e-81d7473258e6_thumb.jpg",
+    "type": "adult",
+    "person": "female east asian adult"
+  },
+  {
     "url": "faces/female_east_asian_adult/a774b2d2-ef81-4902-b7cd-d6c04b9ca75f_thumb.jpg",
     "type": "adult",
     "person": "female east asian adult"
@@ -706,6 +1041,11 @@ export default [
   },
   {
     "url": "faces/female_east_asian_adult/d33e5aff-27e5-4b3f-997e-e100656f212c_thumb.jpg",
+    "type": "adult",
+    "person": "female east asian adult"
+  },
+  {
+    "url": "faces/female_east_asian_adult/630ddc85-f96f-4737-9546-6c2147b18e92_thumb.jpg",
     "type": "adult",
     "person": "female east asian adult"
   },
@@ -730,7 +1070,17 @@ export default [
     "person": "female east asian adult"
   },
   {
+    "url": "faces/female_east_asian_adult/6710ab26-d6c7-4248-85df-fdd46866b141_thumb.jpg",
+    "type": "adult",
+    "person": "female east asian adult"
+  },
+  {
     "url": "faces/female_east_asian_adult/5ab33d2a-3e32-464e-801f-1cb4766c0086_thumb.jpg",
+    "type": "adult",
+    "person": "female east asian adult"
+  },
+  {
+    "url": "faces/female_east_asian_adult/65233342-b9ec-4fc8-92bc-655d74057df8_thumb.jpg",
     "type": "adult",
     "person": "female east asian adult"
   },
@@ -750,7 +1100,22 @@ export default [
     "person": "female east asian adult"
   },
   {
+    "url": "faces/female_east_asian_adult/80ae7bd2-ee32-40b7-9716-277b82f197b0_thumb.jpg",
+    "type": "adult",
+    "person": "female east asian adult"
+  },
+  {
+    "url": "faces/female_east_asian_adult/6690b0a1-188e-4a77-aecf-f1686c374885_thumb.jpg",
+    "type": "adult",
+    "person": "female east asian adult"
+  },
+  {
     "url": "faces/female_east_asian_adult/4f8bbad7-e894-4921-8f73-1779caffa314_thumb.jpg",
+    "type": "adult",
+    "person": "female east asian adult"
+  },
+  {
+    "url": "faces/female_east_asian_adult/a0954e9e-4720-47da-8b26-40c15bd0fc30_thumb.jpg",
     "type": "adult",
     "person": "female east asian adult"
   },
@@ -780,6 +1145,16 @@ export default [
     "person": "female east asian adult"
   },
   {
+    "url": "faces/female_east_asian_adult/e51f218a-3dcc-46f3-a175-adaa3f79895f_thumb.jpg",
+    "type": "adult",
+    "person": "female east asian adult"
+  },
+  {
+    "url": "faces/female_middle_eastern_child/d1adbe8a-84d8-4f9f-83e3-a1745b389d38_thumb.jpg",
+    "type": "child",
+    "person": "female middle eastern child"
+  },
+  {
     "url": "faces/female_middle_eastern_child/867987cd-7758-4a19-a580-32b8abdb1363_thumb.jpg",
     "type": "child",
     "person": "female middle eastern child"
@@ -790,12 +1165,27 @@ export default [
     "person": "male african old person"
   },
   {
+    "url": "faces/female_north_american_adult/21272841-3644-4bba-980a-c8027ba5f9a8_thumb.jpg",
+    "type": "adult",
+    "person": "female north american adult"
+  },
+  {
+    "url": "faces/female_north_american_adult/63efcdc5-f0ec-490f-a14f-19f068e7dda8_thumb.jpg",
+    "type": "adult",
+    "person": "female north american adult"
+  },
+  {
     "url": "faces/female_north_american_adult/ac87833d-e429-45ee-81b0-f4d628dd2661_thumb.jpg",
     "type": "adult",
     "person": "female north american adult"
   },
   {
     "url": "faces/female_north_american_adult/d6943bef-2698-4878-b6e3-9adf8b284279_thumb.jpg",
+    "type": "adult",
+    "person": "female north american adult"
+  },
+  {
+    "url": "faces/female_north_american_adult/203d0d7f-dd20-47e6-9530-cddadc6033be_thumb.jpg",
     "type": "adult",
     "person": "female north american adult"
   },
@@ -816,6 +1206,11 @@ export default [
   },
   {
     "url": "faces/female_middle_eastern_adult/04ff9128-b65a-408c-ad5e-df3fb675bfea_thumb.jpg",
+    "type": "adult",
+    "person": "female middle eastern adult"
+  },
+  {
+    "url": "faces/female_middle_eastern_adult/a1f53a0f-0e68-4bc3-807c-7436d8761228_thumb.jpg",
     "type": "adult",
     "person": "female middle eastern adult"
   },
@@ -855,7 +1250,17 @@ export default [
     "person": "female european child"
   },
   {
+    "url": "faces/female_european_child/1ac0ad59-1536-4c13-a6ff-c74833aa6cbb_thumb.jpg",
+    "type": "child",
+    "person": "female european child"
+  },
+  {
     "url": "faces/female_european_child/213f287e-e3f9-44b1-ae64-4e392031e496_thumb.jpg",
+    "type": "child",
+    "person": "female european child"
+  },
+  {
+    "url": "faces/female_european_child/b8a522ad-5abe-4695-a382-f73ff4ded7d2_thumb.jpg",
     "type": "child",
     "person": "female european child"
   },
@@ -900,12 +1305,32 @@ export default [
     "person": "female european old person"
   },
   {
+    "url": "faces/female_european_old_person/2e8b383b-106d-416d-a9e6-9882224a195d_thumb.jpg",
+    "type": "senior",
+    "person": "female european old person"
+  },
+  {
     "url": "faces/female_european_old_person/d2f3a544-ec6c-404b-ae92-42a54285cc55_thumb.jpg",
     "type": "senior",
     "person": "female european old person"
   },
   {
+    "url": "faces/male_european_child/534502c9-1ee9-45fa-9375-d10d82cac8c4_thumb.jpg",
+    "type": "child",
+    "person": "male european child"
+  },
+  {
+    "url": "faces/male_european_child/bb34c9b4-33ee-4464-a2d4-e8e4d3da0754_thumb.jpg",
+    "type": "child",
+    "person": "male european child"
+  },
+  {
     "url": "faces/male_european_child/5ae43f28-8a20-4118-be65-d7c6715e75ff_thumb.jpg",
+    "type": "child",
+    "person": "male european child"
+  },
+  {
+    "url": "faces/male_european_child/ed5e9dd3-0f2f-4849-a49b-8f4d94d4705c_thumb.jpg",
     "type": "child",
     "person": "male european child"
   },
@@ -916,6 +1341,11 @@ export default [
   },
   {
     "url": "faces/male_east_asian_adult/b89aa89e-9b98-46c2-b60b-8ec5f12e1a43_thumb.jpg",
+    "type": "adult",
+    "person": "male east asian adult"
+  },
+  {
+    "url": "faces/male_east_asian_adult/8cb31458-041f-4b30-978e-bf1c782a322b_thumb.jpg",
     "type": "adult",
     "person": "male east asian adult"
   },
@@ -931,6 +1361,11 @@ export default [
   },
   {
     "url": "faces/male_east_asian_adult/fdf52e45-a216-4012-9b4d-31d52729c996_thumb.jpg",
+    "type": "adult",
+    "person": "male east asian adult"
+  },
+  {
+    "url": "faces/male_east_asian_adult/381cfc7a-558e-41b6-b859-d1dd529a0a77_thumb.jpg",
     "type": "adult",
     "person": "male east asian adult"
   },
@@ -965,12 +1400,47 @@ export default [
     "person": "male east asian adult"
   },
   {
+    "url": "faces/male_east_asian_adult/fff16083-ec88-4707-97a9-ceba3a151fa2_thumb.jpg",
+    "type": "adult",
+    "person": "male east asian adult"
+  },
+  {
+    "url": "faces/male_east_asian_adult/dd6b475c-e531-433e-bcd8-aebde3e5ec70_thumb.jpg",
+    "type": "adult",
+    "person": "male east asian adult"
+  },
+  {
+    "url": "faces/male_east_asian_adult/e21797f9-be6e-49ba-ad80-d75ab7d80fec_thumb.jpg",
+    "type": "adult",
+    "person": "male east asian adult"
+  },
+  {
+    "url": "faces/male_east_asian_adult/87b7a596-2e39-4fa4-a0f4-9c2374932048_thumb.jpg",
+    "type": "adult",
+    "person": "male east asian adult"
+  },
+  {
+    "url": "faces/male_east_asian_adult/f8c089ac-b18e-4334-a1c8-42bebc8a779e_thumb.jpg",
+    "type": "adult",
+    "person": "male east asian adult"
+  },
+  {
     "url": "faces/male_east_asian_adult/0c26f408-11fc-4e5e-bc86-fa4917ddfecc_thumb.jpg",
     "type": "adult",
     "person": "male east asian adult"
   },
   {
     "url": "faces/male_east_asian_adult/00727efc-b201-4c67-9311-4ba3e609ecc3_thumb.jpg",
+    "type": "adult",
+    "person": "male east asian adult"
+  },
+  {
+    "url": "faces/male_east_asian_adult/2b0e9587-2975-4e6b-8224-8a63f2cfe89f_thumb.jpg",
+    "type": "adult",
+    "person": "male east asian adult"
+  },
+  {
+    "url": "faces/male_east_asian_adult/57a8cf6c-f8b1-46a2-9141-cd453dd14545_thumb.jpg",
     "type": "adult",
     "person": "male east asian adult"
   },
@@ -1040,6 +1510,16 @@ export default [
     "person": "male european old person"
   },
   {
+    "url": "faces/male_european_old_person/5fae2d0a-cc96-426a-a4fb-3f551652917d_thumb.jpg",
+    "type": "senior",
+    "person": "male european old person"
+  },
+  {
+    "url": "faces/male_latin_american_adult/fdc5f22d-ac23-4a96-9ba9-6b6bd1cc1067_thumb.jpg",
+    "type": "adult",
+    "person": "male latin american adult"
+  },
+  {
     "url": "faces/male_latin_american_adult/eb6d99b8-fbe3-4bed-9ba1-d7f63d963aee_thumb.jpg",
     "type": "adult",
     "person": "male latin american adult"
@@ -1055,6 +1535,11 @@ export default [
     "person": "male latin american adult"
   },
   {
+    "url": "faces/male_latin_american_adult/1c4c343f-708d-4090-a281-06b89afa560f_thumb.jpg",
+    "type": "adult",
+    "person": "male latin american adult"
+  },
+  {
     "url": "faces/male_latin_american_adult/629eb408-2080-4188-9ed9-6dfc1cfb3012_thumb.jpg",
     "type": "adult",
     "person": "male latin american adult"
@@ -1065,7 +1550,22 @@ export default [
     "person": "male latin american adult"
   },
   {
+    "url": "faces/male_latin_american_adult/70791f08-f6fe-4900-b33a-3f11a08f182c_thumb.jpg",
+    "type": "adult",
+    "person": "male latin american adult"
+  },
+  {
+    "url": "faces/male_east_asian_child/86fa28b9-1a8f-4105-808b-a06c449be149_thumb.jpg",
+    "type": "child",
+    "person": "male east asian child"
+  },
+  {
     "url": "faces/male_east_asian_child/5a08433f-1e55-4c8f-933b-d16e8912542f_thumb.jpg",
+    "type": "child",
+    "person": "male east asian child"
+  },
+  {
+    "url": "faces/male_east_asian_child/2157af6e-5210-49f2-8fc9-654fe935cd58_thumb.jpg",
     "type": "child",
     "person": "male east asian child"
   },
@@ -1076,6 +1576,11 @@ export default [
   },
   {
     "url": "faces/male_east_asian_child/3196434b-0c9d-4dff-86a3-17bd2e3e698f_thumb.jpg",
+    "type": "child",
+    "person": "male east asian child"
+  },
+  {
+    "url": "faces/male_east_asian_child/d04d551f-0930-479c-b3b0-237018ddf053_thumb.jpg",
     "type": "child",
     "person": "male east asian child"
   },

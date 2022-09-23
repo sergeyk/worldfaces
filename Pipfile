@@ -4,16 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-replicate = "*"
+ipykernel = "*"
+jupyter = "*"
 pandas = "*"
-tqdm = "*"
-requests = "*"
 python-dotenv = "*"
-mako = "*"
+replicate = "*"
+requests = "*"
 seaborn = "*"
+tqdm = "*"
 
 [dev-packages]
-ipykernel = "*"
 
 [requires]
 python_version = "3.9"
