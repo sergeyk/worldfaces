@@ -14,7 +14,7 @@
             const images = filteredImages.map(image => {
                 return html`<a href="${image.url}"><img src=${image.thumb_url} alt=${image.person} loading="lazy" /></a>`
             })
-            return html`<div class="mb-4 grid grid-cols-5 sm:grid-cols-10">${images}</div>`
+            return html`<div class="mb-4 grid grid-cols-5 sm:grid-cols-10 gap-0.5">${images}</div>`
         }
 
         class App extends Component {
@@ -25,7 +25,10 @@
             }
 
             componentDidMount() {
-                this.setState({ display: (new URLSearchParams(window.location.search)).get('display') })
+                const display = (new URLSearchParams(window.location.search)).get('display')
+                if (display) {
+                    this.setState({ display })
+                }
             }
 
             onChange = e => {
@@ -33,7 +36,7 @@
             }
 
             renderFilterSelect() {
-                const all = (this.state.display === 'all') ? html`All` : html`<a class="text-blue-400 underline" href="?display=all">All</a>`
+                const all = (this.state.display === 'all') ? html`All` : html`<a class="text-blue-400 underline" href="/">All</a>`
                 const byAge = (this.state.display === 'byAge') ? html`By Age` : html`<a class="text-blue-400 underline" href="?display=byAge">By Age</a>`
                 const byRegion = (this.state.display === 'byRegion') ? html`By Region` : html`<a class="text-blue-400 underline" href="?display=byRegion">By Region</a>`
                 return html`<div class="mb-4 flex gap-4">${all} ${byAge} ${byRegion}</div>`
@@ -42,18 +45,18 @@
             renderImages() {
                 if (this.state.display === 'all') {
                     const filteredImages = this.allImages.filter(image => this.state.filter === 'all' || image.type === this.state.filter);
-                    return html`<div><h2 class="mb-2 font-semibold">All (100 people)</h2>${renderImageGrid(filteredImages)}</div>`
+                    return html`<div>${renderImageGrid(filteredImages)}</div>`
                 } else if (this.state.display === 'byAge') {
                     return [['child', 'Children'], ['adult', 'Adults'], ['senior', 'Seniors']].map(ageAndTitle => {
                         const age = ageAndTitle[0]
                         const title = ageAndTitle[1]
                         const filteredImages = this.allImages.filter(image => image.age === age)
-                        return html`<div><h2 class="mb-2 font-semibold">${title} (${filteredImages.length} people)</h2>${renderImageGrid(filteredImages)}</div>`
+                        return html`<div><h2 class="mb-2 font-semibold">${title}</h2>${renderImageGrid(filteredImages)}</div>`
                     })
                 } else if (this.state.display === 'byRegion') {
                     return ['South Asia', 'East Asia', 'North America', 'Latin America', 'Sub-Saharan Africa', 'Europe', 'Middle East & North Africa'].map(region => {
                         const filteredImages = this.allImages.filter(image => image.region === region)
-                        return html`<div><h2 class="mb-2">${region} (${filteredImages.length} people)</h2>${renderImageGrid(filteredImages)}</div>`
+                        return html`<div><h2 class="mb-2 font-semibold">${region}</h2>${renderImageGrid(filteredImages)}</div>`
                     })
                 }
             }
@@ -71,7 +74,7 @@
         <div class="prose mb-4">
             <h1>World Faces</h1>
             <p class="font-semibold">
-                If you were to gather 100 people from around the world, what would they look like?
+                What would a hundred people randomly selected from around the world look like?
             </p>
             <p>
                 This page shows you a possible answer, using AI-generated images.
@@ -85,8 +88,10 @@
                     href="https://replicate.com/stability-ai/stable-diffusion">StableDiffusion on Replicate</a> with
                 prompts like <em>"profile headshot photo of a male latin american adult, centered, white bg"</em>.
             </p>
-            <p>All code is available on <a href="https://github.com/sergeyk/worldfaces">GitHub</a>. Deployed with
-                Vercel.</p>
+            <p>
+                By <a href="https://twitter.com/sergeykarayev">Sergey Karayev</a>.
+                Code on <a href="https://github.com/sergeyk/worldfaces">GitHub</a>.
+            </p>
         </div>
         <div id="app"></div>
     </div>
