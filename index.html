@@ -39,7 +39,7 @@
             const images = filteredImages.map(image => {
                 return html`<a href="${image.url}"><img src=${image.thumb_url} alt=${image.person} loading="lazy" class="border border-gray-100" /></a>`
             })
-            return html`<div class="mb-4 grid grid-cols-5 sm:grid-cols-10">${images}</div>`
+            return html`<div class="mb-4 grid grid-cols-5 md:grid-cols-10 lg:grid-cols-12">${images}</div>`
         }
 
         class App extends Component {
