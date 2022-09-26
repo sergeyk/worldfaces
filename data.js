@@ -1190,6 +1190,13 @@ export default [
     "person": "female latin american adult"
   },
   {
+    "thumb_url": "faces/female_latin_american_adult/5cefd92d-47d8-4826-9ed0-4d9998e6c242_thumb.jpg",
+    "url": "faces/female_latin_american_adult/5cefd92d-47d8-4826-9ed0-4d9998e6c242.jpg",
+    "age": "adult",
+    "region": "Latin America",
+    "person": "female latin american adult"
+  },
+  {
     "thumb_url": "faces/female_latin_american_adult/b976e628-2c5c-4757-b773-73fe2690e8da_thumb.jpg",
     "url": "faces/female_latin_american_adult/b976e628-2c5c-4757-b773-73fe2690e8da.jpg",
     "age": "adult",

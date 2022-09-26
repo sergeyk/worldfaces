@@ -12,9 +12,9 @@
 
         const renderImageGrid = (filteredImages) => {
             const images = filteredImages.map(image => {
-                return html`<a href="${image.url}"><img src=${image.thumb_url} alt=${image.person} loading="lazy" /></a>`
+                return html`<a href="${image.url}"><img src=${image.thumb_url} alt=${image.person} loading="lazy" class="border border-gray-100" /></a>`
             })
-            return html`<div class="mb-4 grid grid-cols-5 sm:grid-cols-10 gap-0.5">${images}</div>`
+            return html`<div class="mb-4 grid grid-cols-5 sm:grid-cols-10">${images}</div>`
         }
 
         class App extends Component {
